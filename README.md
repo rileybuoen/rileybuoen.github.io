@@ -1,11 +1,11 @@
 # Portfolio
 
-### Education
+## Education
 HUMBOLDT STATE UNIVERSITY *2019*.
 B.A. Geography.
 Minor in Geospatila Analysis.
 
-### EXPERIENCE
+## EXPERIENCE
 NV5 Geospatial
 Senior Analyst
 
