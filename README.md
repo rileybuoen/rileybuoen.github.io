@@ -1,11 +1,11 @@
 # Portfolio
 ### skills
-- Sofware: ArcGIS Pro, ArcGIS Online, QGIS, CAD, Photoshop, Illustrator MicroStation, TerraScan, TopoDOT
-- Programing: Python, HTML, CSS, JavaScript
-- Other: Problem Solver, spatial reasoner
+- **Sofware:** ArcGIS Pro, ArcGIS Online, QGIS, CAD, Photoshop, Illustrator MicroStation, TerraScan, TopoDOT
+- **Programing:** Python, HTML, CSS, JavaScript
+- **Other:** Problem Solver, spatial reasoner
 
-## Education
-HUMBOLDT STATE UNIVERSITY *2019*
+## EDUCATION
+*HUMBOLDT STATE UNIVERSITY 2019*.
 B.A. Geography
 Minor in Geospatila Analysis
 
