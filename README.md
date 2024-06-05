@@ -6,7 +6,7 @@
 - **Other:** Problem Solver, spatial reasoner
 
 ## Education
-*HUMBOLDT STATE UNIVERSITY 2019*.
+Humboldt State University *2019*
 B.A. Geography
 Minor in Geospatila Analysis
 
