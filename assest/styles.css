@@ -118,7 +118,6 @@ h2 {
 @media  screen and (max-width: 1000px) {
     .gallery {
         grid-template-columns: 1fr;
-        gap: 0px;
         gap: 10px;
     }
     .gallery img {
@@ -160,5 +159,24 @@ h2 {
     .fa {
         padding-left: 0px;
         padding-right: 20px;
+    }
+    /* adds image description below the image on mobile rather then hover */
+    .img-description {
+        position: inherit;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: transparent;
+        color: black;
+        opacity: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: none;
+    }
+    .gallery {
+        grid-template-columns: 1fr;
+        gap: 50px;
     }
 }
