@@ -149,6 +149,7 @@ h2 {
         padding: 0px;
         align-items: center;
         justify-content: center;
+        text-align: center;
     }
     .about__container img {
         height: 100%;
@@ -215,6 +216,7 @@ h2 {
         padding: 0px;
         align-items: center;
         justify-content: center;
+        text-align: center;
     }
     .about__container img {
         height: 100%;
