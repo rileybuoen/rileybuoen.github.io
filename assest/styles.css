@@ -115,6 +115,20 @@ h2 {
     font-family: "Nunito", sans-serif;
     margin-right: 200px;
 }
+.about__container {
+    display: flex;
+    padding: 20px;
+}
+.about__container img {
+    height: 100%;
+    width: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50%;
+}
+#about__text {
+    margin: auto;
+}
 @media  screen and (max-width: 1000px) {
     .gallery {
         grid-template-columns: 1fr;
@@ -128,6 +142,22 @@ h2 {
     }
     .resume__container li {
         margin-right: 50px;
+    }
+    .about__container {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+    .about__container img {
+        height: 100%;
+        width: 150px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-radius: 50%;
     }
 }
 @media screen and (max-width: 700px) {
@@ -178,5 +208,21 @@ h2 {
     .gallery {
         grid-template-columns: 1fr;
         gap: 50px;
+    }
+    .about__container {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+    .about__container img {
+        height: 100%;
+        width: 150px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-radius: 50%;
     }
 }
