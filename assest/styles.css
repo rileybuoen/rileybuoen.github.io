@@ -57,17 +57,17 @@ h2 {
 }
 .gallery {
     display: grid;
-    gap: 15px;
-    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-template-columns: 1fr;
 }
 .img-wrap {
     position: relative;
-    height: 100%;
+    height: 300px;
     width: 100%;
 }
 .gallery a img {
     object-fit: cover;
-    height: 100%;
+    height: 300px;
     width: 100%;
 }
 .img-description {
@@ -103,17 +103,6 @@ h2 {
 }
 #mobile__border {
     opacity: 0;
-}
-.resume__container {
-    padding-bottom: 20px;
-}
-.resume__container ul {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.resume__container li {
-    font-family: "Nunito", sans-serif;
-    margin-right: 200px;
 }
 .about__container {
     display: flex;
