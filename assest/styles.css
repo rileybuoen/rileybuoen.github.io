@@ -145,6 +145,10 @@ h2 {
     /* align-items: center; */
 }
 
+.about_container_text {
+    padding-left: 20px;
+}
+
 .about_container_text p {
     font-size: 1.2em;
     padding-bottom: 10px;
@@ -156,6 +160,7 @@ h2 {
     width: 200px;
     padding-left: 20px;
     padding-right: 20px;
+    /* filter: drop-shadow(5px 5px rgb(0, 0, 0)); */
 }
 
 #about__text {
