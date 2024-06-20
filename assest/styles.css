@@ -1,9 +1,19 @@
+/* Riley Buoen */
+/* 06-20-24 */
+
+
+/* Removes default margin and padding from all elements */
 * {
     margin: 0;
+    padding: 0;
 }
+
+/* Body Styles */
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Misc Styles */
 a, p {
     font-family: "Nunito", sans-serif;
 }
@@ -16,12 +26,16 @@ h2 {
     font-weight: 100;
     padding-bottom: 20px;
 }
+
+/* Main Conainer Styles  */
 .wrapper {
     display: flex;
     margin: auto;
     width: 75%;
     margin-top: 10%;
 }
+
+/* navigation bar styles */
 .navbar {
     position: fixed;
     z-index: 1;
@@ -29,54 +43,70 @@ h2 {
     height: 100vh;
     padding: 10px;
     text-align: right;
-    /* background-color: aquamarine; */
 }
+
 .navbar ul {
     padding: 0;
     list-style-type: none;
 }
+
 .navbar li {
     padding-bottom: 20px;
 }
+
 .navbar a {
     color: black;
     text-decoration: none;
 }
+
 .nav-links:hover {
     color: darkgray;
+    
     text-decoration: underline;
 }
+
+#mobile__border {
+    opacity: 0;
+}
+
+/* Main content styles */
 .content {
     margin-left: 150px;
     height: 100%;
     padding: 10px;
-    /* background-color: coral; */
 }
+
 .content article {
     padding-bottom: 50px;
 }
+
+/* Image Gallery Styles */
 .gallery {
     display: grid;
     gap: 10px;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr);
 }
+
 .img-wrap {
     position: relative;
-    height: 300px;
+    aspect-ratio: 1/ 1;
+    height: 100%;
     width: 100%;
 }
+
 .gallery a img {
     object-fit: cover;
-    height: 300px;
+    height: 100%;
     width: 100%;
 }
+
 .img-description {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(128, 128, 128, 0.82);
+    background: rgba(255, 255, 255, 0.606);
     color: white;
     opacity: 0;
     display: flex;
@@ -84,65 +114,88 @@ h2 {
     justify-content: center;
     transition: opacity .2s, visibility .2s;
 }
+
 .img-wrap:hover .img-description {
     visibility: visible;
     opacity: 1;
 }
-.right-dates {
-    float: right;
-}
+
+/* Social Media Icon Styles */
 .fa {
     padding-left: 20px;
     font-size: 20px;
 }
+
 .fa:hover {
     opacity: 0.5;
 }
-.copyright {
-    font-size: small;
-}
-#mobile__border {
-    opacity: 0;
-}
+
+
+
+/* About Section Styles */
 .about__container {
     display: flex;
-    padding: 20px;
+    align-items: center;
 }
+
+.about_container_text {
+    
+}
+
+.about_container_text h1 {
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
+.about_container_text p {
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+
 .about__container img {
     height: 100%;
-    width: 150px;
+    width: 200px;
     padding-left: 20px;
     padding-right: 20px;
-    border-radius: 50%;
 }
+
 #about__text {
     margin: auto;
 }
+
+/* Footer Information Styles */
+.copyright {
+    font-size: small;
+}
+
+/* Project Page Styles */
 .full__img {
     height: 100%;
     width: 100%;
     object-fit: contain;
 }
+
 .description__container {
     padding-top: 20px;
 }
+
 .project__container {
     padding-bottom: 20px;
 }
+
+/* adaptive media queries  */
+
+/* Medium Display Styles */
 @media  screen and (max-width: 1000px) {
     .gallery {
         grid-template-columns: 1fr;
         gap: 10px;
     }
+
     .gallery img {
         height: auto;
     }
-    .right-dates {
-        float: inherit
-    }
-    .resume__container li {
-        margin-right: 50px;
-    }
+
     .about__container {
         display: flex;
         flex-direction: column;
@@ -151,6 +204,7 @@ h2 {
         justify-content: center;
         text-align: center;
     }
+
     .about__container img {
         height: 100%;
         width: 150px;
@@ -161,6 +215,8 @@ h2 {
         border-radius: 50%;
     }
 }
+
+/* Small Display Styles */
 @media screen and (max-width: 700px) {
     body {
         padding: 10px;
