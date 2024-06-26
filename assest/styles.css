@@ -31,7 +31,9 @@ h1 {
 }
 
 h2 {
-    font-weight: 100;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
     padding-bottom: 20px;
 }
 
@@ -138,8 +140,6 @@ h2 {
     opacity: 0.5;
 }
 
-
-
 /* About Section Styles */
 .about__container {
     display: flex;
@@ -173,20 +173,26 @@ h2 {
     font-size: small;
 }
 
-/* Project Page Styles */
-.full__img {
+/* Project Pages Styles */
+.project_container {
+    padding-bottom: 20px;
+}
+
+.full_img {
     height: 100%;
     width: 100%;
     object-fit: contain;
 }
 
-.description__container {
+.description_container {
     padding-top: 20px;
 }
 
-.project__container {
-    padding-bottom: 20px;
+.clear_break {
+    visibility: hidden;
 }
+
+
 
 /* FONTS */
 
