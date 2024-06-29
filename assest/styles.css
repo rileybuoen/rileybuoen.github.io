@@ -192,11 +192,16 @@ h2 {
     height: 100%;
     width: 100%;
     object-fit: contain;
+    padding-bottom: 20px;
 }
 
-.description_container {
-    padding-top: 20px;
+.project_container p {
+    padding-bottom: 20px;
 }
+
+/* .description_container {
+    padding-top: 20px;
+} */
 
 /* FONTS */
 
