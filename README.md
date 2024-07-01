@@ -1,3 +1,3 @@
 # GIS Portfolio
 
-**GIS Portfolio:** [Check it out] (rileybuoen.github.io)
+**GIS Portfolio:** [Check it out] (https://rileybuoen.github.io)
