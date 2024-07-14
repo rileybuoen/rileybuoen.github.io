@@ -25,7 +25,7 @@ hr {
 
 h1 {
     font-size: 2.5em;
-    font-family:merriw ;
+    font-family:"Merriweather", serif ;
     font-weight:lighter;
     padding-bottom: 20px;
 }
@@ -35,6 +35,10 @@ h2 {
     font-weight: 700;
     font-style: normal;
     padding-bottom: 20px;
+}
+
+h3 {
+    font-family: "Merriweather", serif;
 }
 
 /* Main Conainer Styles  */
@@ -153,7 +157,6 @@ h2 {
     aspect-ratio: 1/ 1;
     height: 100%;
     width: 100%;
-    /* padding-left: 20px; */
     padding-right: 20px;
     /* filter: drop-shadow(5px 5px rgb(0, 0, 0)); */
 }
@@ -203,6 +206,11 @@ span.email b {
     padding-bottom: 20px;
 }
 
+.project_container ul {
+    margin: 1em;
+    margin-top: 0em;
+}
+
 .full_img {
     height: 100%;
     width: 100%;
@@ -213,6 +221,12 @@ span.email b {
 .project_container p {
     padding-bottom: 20px;
 }
+
+/* Resume Dates Style */
+.right-dates {
+    text-align: right;
+}
+
 
 /* .description_container {
     padding-top: 20px;
