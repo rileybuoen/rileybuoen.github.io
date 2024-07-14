@@ -147,7 +147,7 @@ h3 {
 }
 
 .about_container_text p {
-    font-size: 1.2em;
+    font-size: 1.1em;
     padding-bottom: 10px;
     line-height: 1.6;
 }
@@ -211,6 +211,7 @@ span.email b {
     margin-top: 0em;
 }
 
+/* PROJECT IMAGE STYLE */
 .full_img {
     height: 100%;
     width: 100%;
