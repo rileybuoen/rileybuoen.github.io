@@ -137,32 +137,26 @@ h3 {
 }
 
 /* About Section Styles */
-.about__container {
-    display: flex;
-    /* align-items: center; */
-}
-
-.about_container_text {
-    padding-left: 20px;
-}
 
 .about_container_text p {
     font-size: 1.1em;
-    padding-bottom: 10px;
     line-height: 1.6;
+}
+
+#about_header {
+    text-align: center;
+    padding-top: 20px;
 }
 
 .about__container img {
     object-fit: cover;
     aspect-ratio: 1/ 1;
     height: 100%;
-    width: 100%;
-    padding-right: 20px;
-    /* filter: drop-shadow(5px 5px rgb(0, 0, 0)); */
-}
-
-#about__text {
-    margin: auto;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
 }
 
 /* contact section styles */
@@ -312,9 +306,9 @@ span.email b {
         display: flex;
         flex-direction: column;
         padding: 0px;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+        align-items: left;
+        justify-content: left;
+        text-align: left;
     }
 
     .about__container img {
@@ -393,6 +387,6 @@ span.email b {
         padding-bottom: 20px;
         padding-left: 0px;
         padding-right: 0px;
-        border-radius: 0%;
+        border-radius: 100%;
     }
 }
