@@ -17,6 +17,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
+<style>
+    #multi-img {
+        padding: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100%;
+        width: 1000px;
+    }
+</style>
 <body>
     <div class="wrapper">
         <div class="navbar">
@@ -28,13 +38,26 @@
         <hr id="mobile__border">
         <!-- Main Content -->
         <div class="content">
+
+            <!-- INTODUCTION -->
             <h2>Discover QGIS Map Collection</h2>
             <p style="padding-bottom: 20px;">
                 I recently stumbled upon the book <a href="https://locatepress.com/book/dq32">Discover QGIS 3.X - Second Edition</a> by Kurt Menke and decided to pick up a copy and go through it. I enjoy learning through books so I thought this would be a good way to get more acquanted with QGIS and strengthen my GIS fundamentals at the same time. This will be a repository for the maps and exercise I make while going though the book.
             </p>
+
+            <!-- EXERCISE 2 -->
             <article class="project_container">
                 <h3>Exersize 2: Displaying Geospatial Data</h3>
-                <a href="../images/fulls/exercise2_Map.jpg"><img class="full_img" src="../images/fulls/exercise2_Map.jpg" alt=""></a>
+                <a href="../images/fulls/exercise2_Map.jpg"><img id="multi-img" class="full_img" src="../images/fulls/exercise2_Map.jpg" alt=""></a>
+                <p class="description-container">
+                    This exercise focused on organizing map layers, setting the project CRS, sybolizing map layers, and composing a map layout within QGIS. 
+                </p>
+            </article>
+
+            <!-- EXERCISE 5 -->
+            <article class="project_container">
+                <h3>Exersize 5: Basic Geospatial Analysis Techniques</h3>
+                <a href="../images/fulls/exercise_5_final.jpg"><img id="multi-img" class="full_img" src="../images/fulls/exercise_5_final.jpg" alt=""></a>
                 <p class="description-container">
                     This exercise focused on organizing map layers, setting the project CRS, sybolizing map layers, and composing a map layout within QGIS. 
                 </p>

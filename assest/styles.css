@@ -42,6 +42,7 @@ h3 {
 }
 
 /* Main Conainer Styles  */
+
 .wrapper {
     display: flex;
     margin: auto;
@@ -50,6 +51,7 @@ h3 {
 }
 
 /* navigation bar styles */
+
 .navbar {
     position: fixed;
     z-index: 1;
@@ -85,6 +87,7 @@ h3 {
 }
 
 /* Main content styles */
+
 .content {
     margin-left: 150px;
     height: 100%;
@@ -96,6 +99,7 @@ h3 {
 }
 
 /* Image Gallery Styles */
+
 .gallery {
     display: grid;
     gap: 10px;
@@ -160,6 +164,7 @@ h3 {
 }
 
 /* contact section styles */
+
 #contact_links {
     justify-content: center;
     text-align: center;
@@ -184,6 +189,7 @@ h3 {
 }
 
 /* from Spencer Mortensen */
+
 span.email b {
     display: none;
 }
@@ -191,11 +197,13 @@ span.email b {
 /* Social Media Icon Styles */
 
 /* Footer Information Styles */
+
 .copyright {
     font-size: small;
 }
 
 /* Project Pages Styles */
+
 .project_container {
     padding-bottom: 20px;
 }
@@ -206,11 +214,24 @@ span.email b {
 }
 
 /* PROJECT IMAGE STYLE */
+
 .full_img {
     height: 100%;
     width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     object-fit: contain;
     padding-bottom: 20px;
+}
+
+#multi-img {
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 1000px;
 }
 
 .project_container p {
