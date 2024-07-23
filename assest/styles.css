@@ -8,7 +8,7 @@
 }
 
 /* Misc Styles */
-a, p {
+a, p, li {
     font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -94,9 +94,9 @@ h3 {
     padding: 10px;
 }
 
-.content article {
+/* .content article {
     padding-bottom: 50px;
-}
+} */
 
 /* Image Gallery Styles */
 
@@ -147,9 +147,17 @@ h3 {
     line-height: 1.6;
 }
 
+#skills-list {
+    list-style-type: none;
+}
+
 #about_header {
     text-align: center;
     padding-top: 20px;
+}
+
+.about-headers {
+    text-align: center;
 }
 
 .about__container img {
@@ -163,6 +171,29 @@ h3 {
     border-radius: 100%;
 }
 
+.job-title {
+    font-size:large;
+    font-weight: 100;
+    font-style: italic;
+}
+
+/* Resume Dates Style */
+
+.right-dates {
+    font-weight: 100;
+    font-style: italic;
+    text-align: right;
+    float: right;
+    font-size: smaller;
+}
+
+.resume-bullets {
+    margin-left: 50px;
+}
+
+.resume-sections {
+    padding-bottom: 20px;
+}
 /* contact section styles */
 
 #contact_links {
@@ -203,9 +234,13 @@ span.email b {
 }
 
 /* Project Pages Styles */
+    
 
-.project_container {
-    padding-bottom: 20px;
+.proj-center {
+    margin: 0 auto;
+    width: 700px;
+    height: auto;
+    padding-bottom: 50px;
 }
 
 .project_container ul {
@@ -225,28 +260,15 @@ span.email b {
     padding-bottom: 20px;
 }
 
-#multi-img {
-    padding: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+/* Multiple images on a single page */
+.multi-img {
     height: 100%;
-    width: 1000px;
+    width: 700px;
 }
 
 .project_container p {
     padding-bottom: 20px;
 }
-
-/* Resume Dates Style */
-.right-dates {
-    text-align: right;
-}
-
-
-/* .description_container {
-    padding-top: 20px;
-} */
 
 /* FONTS */
 
