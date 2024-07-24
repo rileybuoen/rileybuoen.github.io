@@ -254,8 +254,8 @@ span.email b {
 
 /* Multiple images on a single page */
 .multi-img {
-    height: 100%;
-    width: 100%;
+    height: 75%;
+    width: 75%;
     display: block;
     margin-left: auto;
     margin-right: auto;
