@@ -13,8 +13,7 @@ a, p, li {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "width" 100;
 }
 
 hr {
@@ -68,10 +67,6 @@ h3 {
 
 .navbar li {
     padding-bottom: 20px;
-}
-
-#small-txt-links {
-    font-size: 0.5em;
 }
 
 .navbar a {
@@ -239,6 +234,7 @@ span.email b {
     margin-left: 2em;
     padding-bottom: 20px;
 }
+
 
 /* PROJECT IMAGE STYLE */
 
