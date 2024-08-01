@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <!-- Title -->
+    <title>Fire Station Response times - Riley Buoen</title>
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="../assest/styles.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="../images/icon.png"/>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RBPL8Q3MGV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RBPL8Q3MGV');
+</script>
+<body>
+    <div class="wrapper">
+        <div class="navbar">
+            <ul>
+                <li><a>Riley Buoen</a></li>
+                <li><a href="../index.html" class="nav-links">Back</a></li>
+            </ul>
+        </div>
+        <hr id="mobile__border">
+        <!-- Main Content -->
+        <div class="content">
+            <h2>Fire Station Response Times</h2>
+            <article class="project_container">
+                <a href="../images/fulls/network_analysis_output.png"><img class="full_img" src="../images/fulls/network_analysis_output.png" alt="Map showing the driving times from fire stations for the City of San Diego in California."></a>
+                <p class="description-container">
+                    This project first utilized GRASS tools for creating the network between the fire station and the road network layers. Then using the QNEAT3 plugin, I compute the isocrones from the location of the fire stations. QNEAT 3 outputs a raster layer which I then blended into the road network to make the network look like its glowing. Finally, I composed the final map and finished it in GIMP.
+                </p>
+                <p>
+                    <b>Tools:</b> QGIS, GIMP
+                    <br>
+                    <b>Data:</b> City of San Diego
+                </p>
+            </article>
+            <!-- Contact Info -->
+            <article id="contact">
+                <h2>Contact</h2>
+                <div id="contact_links">
+                    <a href="https://www.linkedin.com/in/rileybuoen/" target="_blank" class="fa fa-linkedin"></a>
+                    <a href="https://github.com/rileybuoen" target="_blank" class="fa fa-github"></a>
+                    <div class="contact_txt">
+                        <!-- from Spencer Mortensen -->
+                        <span class="email">buoenriley@gmail<b>.gmail</b>.com</span>
+                    </div>
+                </div>
+            </article>
+            <!-- Footer -->
+            <footer>
+                <p class="copyright">Copyright &copy 2024 Riley Buoen</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
