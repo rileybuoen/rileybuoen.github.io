@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- PAGE TITLE -->
+    <title>Riley Buoen</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assest/styles.css">
+    <link rel="stylesheet" href="../assest/leaflet-styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/icon.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- LEAFLET -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <div class="wrapper">
+        <div class="navbar">
+            <ul>
+                <li><a>Riley Buoen</a></li>
+                <li><a href="../index.html" class="nav-links">Back</a></li>
+            </ul>
+        </div>
+
+        <hr id="mobile__border">
+
+        <!-- MAIN CONTENT -->
+        <div class="content">
+            <!-- ENTER TITLE -->
+            <h2>Title</h2>
+
+            <article class="project_container">
+
+                <div id="map"></div>
+                <!-- IMAGE -->
+                <a href="../images/fulls/"><img class="full_img" src="../images/fulls/" alt=""></a>
+
+                <!-- IMAGE DESCRIPTION -->
+                <p class="description-container">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, tempore pariatur quis cupiditate obcaecati laborum totam architecto molestias modi alias hic, nam quam molestiae est magnam amet rerum error saepe.</p>
+
+                <!-- PROJECT DETAILS -->
+                <p><b>Tools:</b><br><b>Data Sources:</b></p>
+
+            </article>
+
+            <!-- Contact Info -->
+            <article id="contact">
+                <div id="contact_links">
+                    <a href="https://www.linkedin.com/in/rileybuoen/" target="_blank" class="fa fa-linkedin"></a>
+                    <a href="https://github.com/rileybuoen" target="_blank" class="fa fa-github"></a>
+                    <div class="contact_txt">
+                        <!-- from Spencer Mortensen -->
+                        <span class="email">buoenriley@gmail<b>.gmail</b>.com</span>
+                    </div>
+                </div>
+            </article>
+            
+            <!-- FOOTER -->
+            <footer>
+                <p class="copyright">Copyright &copy 2024 Riley Buoen</p>
+            </footer>
+        </div>
+    </div>
+</body>
+<script>
+    var map = L.map('map').setView([51.505, -0.09], 13);
+    
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+</script>
+</html>
