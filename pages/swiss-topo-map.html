@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- PAGE TITLE -->
+    <title>Swiss Map - Riley Buoen</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assest/styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/icon.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <div class="wrapper">
+        <div class="navbar">
+            <ul>
+                <li><a>Riley Buoen</a></li>
+                <li><a href="../index.html" class="nav-links">Back</a></li>
+            </ul>
+        </div>
+
+        <hr id="mobile__border">
+
+        <!-- MAIN CONTENT -->
+        <div class="content">
+            <!-- ENTER TITLE -->
+            <h2>Swiss Topo Map</h2>
+            <p><i>Oct 7, 2024</i></p>
+            <br>
+
+            <article class="project_container">
+
+                <!-- IMAGE -->
+                <a href="../images/fulls/Swiss_Overview_Map_compresses.jpg"><img class="full_img" src="../images/fulls/Swiss_Overview_Map_compresses.jpg" alt="An topographic map of Switzerland and parts of their neighboring countries depicting natural and man made features."></a>
+
+                <a href="../images/fulls/relief_natural_only.jpg"><img class="full_img" src="../images/fulls/relief_natural_only.jpg" alt="A topographic map depicting the terrain, water bodies, and rivers only."></a>
+
+                <!-- IMAGE DESCRIPTION -->
+                <p class="description-container">
+                    Recently Ive been fascinated by old atlases, specifically Eduar Imhof's classroom atlases and The Great Geographic Atlas by Rand McNally from the 1980s I bought at a thriftstore a while ago. I learn best by doing, so I thought attempting to replicate one of these map would be good practice where I'd learn a lot in the process. The map I chose was <a href="https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~347965~90115421:-Ubersichtskarte--?qvq=q:author%3D%22Imhof%2C%20Eduard%2C%201895-1986%22;lc:RUMSEY~8~1&mi=37&trs=479#">Eduard Imhof's Overview Map of Switzerland from his Middle School Atlas</a>.
+                </p>    
+                <p class="description-container">
+                    I really like the way manual shaded relief look so for this map I used <a href="https://terraincartography.com/terrainsculptor/index.html">Terrain Sculptor</a> to attempt to generalized my terrain similar to manual relief. Then I draped the hypsometric tint on it using similar colors to Imhof's from QGIS. For almost all of the map featured I using EuroGeographic datasets. Their data was lacking mountain peaks however, so I got those from OpenStreetMaps.
+                </p>
+
+                <!-- PROJECT DETAILS -->
+                <p>
+                    <b>Tools:</b> QGIS, Terrain Sculptor, GIMP, Inkscape
+                    <br>
+                    <b>Data Sources:</b> SRTM, EuroGeographic, OpenStreetMaps
+                </p>
+
+            </article>
+
+            <!-- Contact Info -->
+            <article id="contact">
+                <div id="contact_links">
+                    <a href="https://www.linkedin.com/in/rileybuoen/" target="_blank" class="fa fa-linkedin"></a>
+                    <a href="https://github.com/rileybuoen" target="_blank" class="fa fa-github"></a>
+                    <div class="contact_txt">
+                        <!-- from Spencer Mortensen -->
+                        <span class="email">buoenriley@gmail<b>.gmail</b>.com</span>
+                    </div>
+                </div>
+            </article>
+            
+            <!-- FOOTER -->
+            <footer>
+                <p class="copyright">Copyright &copy 2024 Riley Buoen</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
