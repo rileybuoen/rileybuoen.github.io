@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- PAGE TITLE -->
+    <title>Swiss Topo Mountains - Riley Buoen</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assest/styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/icon.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <div class="wrapper">
+        <div class="navbar">
+            <ul>
+                <li><a>Riley Buoen</a></li>
+                <li><a href="../index.html" class="nav-links">Back</a></li>
+            </ul>
+        </div>
+
+        <hr id="mobile__border">
+
+        <!-- MAIN CONTENT -->
+        <div class="content">
+            <!-- ENTER TITLE -->
+            <h2>Swiss Topo Mountain Style</h2>
+
+            <article class="project_container">
+
+                <!-- IMAGE -->
+                <a href="../images/fulls/Swiss_topo_test.png"><img class="full_img" src="../images/thumbs/Swiss_topo_test.png" alt=""></a>
+
+                <!-- IMAGE DESCRIPTION -->
+                <p class="description-container">
+                    For this project I wanted to try and emulate the style of swiss topo maps, specifically the way they depict rocks and scree in mountain terrains. I used the <a href="https://map.geo.admin.ch">official geoportal of the Swiss Confederation</a> as a reference for this map. The area depicted is in Alaska, because I wanted to be within the United States for this test.
+                    <br><br>
+                    I tried generating the rock detail myself, but couldnt get anywhere close to the reference. I then utilized the <a href="http://motlimot.net/software.html">Piotr</a> tool to generate them using a DEM. There is also a tool called <a href="https://terraincartography.com/screepainter/">Scree Painter</a> I tried to use to generate the scree detail, but I couldn't get it to work properly so, using the stamp tool in GIMP I made my own and masked out the areas I didn't want scree to be depicted. Ill need to mess around with the application in the future to try to get it to work, but this worked for me.
+                </p>
+                
+                <!-- PROJECT DETAILS -->
+                <p>
+                    <b>Tools:</b> QGIS, Piotr, GIMP
+                    <br>
+                    <b>Data Sources:</b> USGS
+                </p>
+
+            </article>
+
+            <!-- Contact Info -->
+            <article id="contact">
+                <div id="contact_links">
+                    <a href="https://www.linkedin.com/in/rileybuoen/" target="_blank" class="fa fa-linkedin"></a>
+                    <a href="https://github.com/rileybuoen" target="_blank" class="fa fa-github"></a>
+                    <div class="contact_txt">
+                        <!-- from Spencer Mortensen -->
+                        <span class="email">buoenriley@gmail<b>.gmail</b>.com</span>
+                    </div>
+                </div>
+            </article>
+            
+            <!-- FOOTER -->
+            <footer>
+                <p class="copyright">Copyright &copy 2024 Riley Buoen</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
